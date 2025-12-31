@@ -1,0 +1,10 @@
+android_app {
+    name: "QingBai",
+    privileged_app: true,
+    privileged: true,
+    certificate: "platform",
+    srcs: ["src/**/*.java"],
+    manifest: "AndroidManifest.xml",
+    static_libs: ["androidx.annotation_annotation"],
+    resource_dirs: ["src/main/res"],
+}
